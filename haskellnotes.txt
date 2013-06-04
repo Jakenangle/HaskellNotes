@@ -62,5 +62,25 @@ foo x (a:b) = a : foo x b
 (++) [] [a:b] = [a:b]
 (++) [a:b] [] = [a:b]
 (++) (a:b) (c:d) = (++) (foo c (a:b)) d
+O(n*m)
+
+(!!) :: [a] -> Int -> a
+[10,9..1]!!3=7
+
+.lhs--everyting is a comment unless you say otherwise "> code here"
+
+length::[a]->Int
+length[] = 0
+length[a..b]= 1 + length b
+
+replicate::Int->a->[a]
+replicate 3 1 = [1,1,1]
+replicate 3 [1] = [[1],[1],[1]]
+replicate 3 'c' = ['c','c','c'] = "ccc"
+replicate 3 "foo" = ["foo","foo","foo"]
+
+Higher order function
+map
+sumL[1..10]=55
 
 
