@@ -87,3 +87,6 @@ Filter
 [1..10]
 
 map-reduce
+
+algebraic types
+data Tree a = Empty|Node a (Tree a) (Tree a)
