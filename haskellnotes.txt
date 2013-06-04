@@ -90,3 +90,11 @@ map-reduce
 
 algebraic types
 data Tree a = Empty|Node a (Tree a) (Tree a)
+
+lazy evalution
+whatIs::Integer->Integer
+whatIs x = 43
+whatIs 14 === 43
+whatIs96 === 43
+
+whatIs (2 `mod` 0) === 43
