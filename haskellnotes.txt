@@ -83,4 +83,5 @@ Higher order function
 map
 sumL[1..10]=55
 
-
+Filter
+[1..10]
